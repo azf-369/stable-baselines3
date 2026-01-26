@@ -9,6 +9,7 @@ from stable_baselines3.ppo import PPO
 from stable_baselines3.sac import SAC
 from stable_baselines3.td3 import TD3
 from stable_baselines3.hppo import HPPO
+from stable_baselines3.dex import HSAC_DEX
 from stable_baselines3.hsac import HSAC
 
 # Read version from file
@@ -30,6 +31,7 @@ __all__ = [
     "DQN",
     "PPO",
     "HPPO",
+    "HSAC_DEX",
     "SAC",
     "HSAC",
     "TD3",
